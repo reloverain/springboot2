@@ -19,6 +19,7 @@ public class CheeseController {
         cheeses.add("munster");
 
         model.addAttribute("cheeses", cheeses);
+        model.addAttribute("title", "Cheese");
         model.addAttribute("message", "Hello World!");
         return "cheese/index";
     }
